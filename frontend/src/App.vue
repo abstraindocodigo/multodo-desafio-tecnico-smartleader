@@ -32,7 +32,7 @@
               <router-link v-if="authStore.isCompanyAdmin" to="/company/dashboard" @click="closeUserDropdown"
                 class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-150">
                 <Icon icon="lucide:building" class="w-4 h-4 mr-3" />
-                Dashboard da Empresa
+                <span v-if="authStore.isCompanyAdmin" class="text-sm text-nowrap">Gerenciar Empresa</span>
               </router-link>
               <router-link to="/profile" @click="closeUserDropdown"
                 class="flex items-center px-4 py-2 text-sm text-gray-700 hover:bg-gray-100 transition-colors duration-150">
