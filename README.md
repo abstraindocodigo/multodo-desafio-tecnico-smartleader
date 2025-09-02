@@ -39,6 +39,9 @@ O sistema vem com dados de teste pré-configurados para facilitar o desenvolvime
 ```bash
 # Recriar banco com dados de teste
 docker compose exec backend php artisan migrate:fresh --seed
+
+# Transformar usuários em admins
+docker compose exec backend php artisan company:update-admins
 ```
 
 ### Comandos úteis para gerenciar containers
