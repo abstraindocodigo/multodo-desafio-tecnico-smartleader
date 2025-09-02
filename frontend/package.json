@@ -1,0 +1,37 @@
+{
+  "name": "frontend-vite",
+  "version": "1.0.0",
+  "description": "MultiTodo - Gerenciador de Tarefas Frontend",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "vite",
+    "todolist",
+    "frontend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@iconify/vue2": "^1.1.1",
+    "axios": "^1.6.0",
+    "vue": "^2.7.14",
+    "vue-router": "^3.6.5",
+    "vuex": "^3.6.2"
+  },
+  "devDependencies": {
+    "@vue/compiler-sfc": "^3.5.20",
+    "autoprefixer": "^10.4.21",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.17",
+    "vite": "^4.5.0",
+    "vite-plugin-vue2": "^2.0.3",
+    "vue-template-compiler": "^2.7.14"
+  }
+}
